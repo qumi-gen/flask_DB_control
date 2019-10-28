@@ -15,7 +15,7 @@ class Student(Base):
     name = sqlalchemy.Column(sqlalchemy.String)
     kana = sqlalchemy.Column(sqlalchemy.String)
 
-#url = 'postgresql+psycopg2://ユーザー名:パスワード@ホスト:ポート/DB名' を./app/url.txt
+#url = 'postgresql+psycopg2://ユーザー名:パスワード@ホスト:ポート/DB名' 
 #'postgresql+psycopg2://ユーザー名:パスワード@ホスト:ポート/DB名' を./app/url.txtに記述し、.gitignoreにurl.txtを指定する
 
 f = open('url.txt','r')
